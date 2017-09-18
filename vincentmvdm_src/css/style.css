@@ -1,0 +1,398 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Helvetica Neue',
+    Helvetica,
+    sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  color: #1F2933;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-height: 100%;
+}
+
+a {
+  color: #1F2933;
+  -webkit-transition: color .15s ease-in;
+  transition: color .15s ease-in;
+}
+
+a:hover {
+    color: #006CD9;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
+
+h3 {
+    margin-top: 1.8em;
+    margin-bottom: 0.8em;
+}
+
+h1 { font-size: 2rem }
+h2 { font-size: 1.5rem }
+h3 { font-size: 1.25rem }
+h4 { font-size: 1rem }
+h5 { font-size: .875rem }
+h6 { font-size: .75rem }
+
+p, dl, ol, ul, pre, blockquote {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+code,
+pre,
+samp {
+  font-family:
+    'Roboto Mono',
+    'Source Code Pro',
+    Menlo,
+    Consolas,
+    'Liberation Mono',
+    monospace;
+}
+
+code, samp {
+  font-size: 87.5%;
+  padding: .125em;
+}
+
+pre {
+  font-size: 87.5%;
+  overflow: scroll;
+}
+
+blockquote {
+    color: #1F2933;
+    font-size: 1.25rem;
+    font-style: italic;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    box-sizing: border-box;
+    border-left: 2px solid #1F2933;
+}
+
+hr {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  border: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ccc;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mobile-portrait {
+    padding-top: calc(640/360 * 100%);
+}
+
+.desktop-hd {
+    padding-top: calc(1024/1440 * 100%);
+}
+
+.sixteen-by-nine {
+    padding-top: calc(9/16 * 100%);
+}
+
+.marvel {
+    padding-top: calc(9/14 * 100%);
+}
+
+.three-by-two {
+    padding-top: calc(2/3 * 100%);
+}
+
+.invision {
+    padding-top: calc(438/930 * 100%);
+}
+
+.mobile-portrait, .desktop-hd, .sixteen-by-nine, .three-by-two, .marvel, .invision {
+    position: relative;
+}
+
+.invision div {
+    height: 100%;
+}
+
+.mobile-portrait > div, .desktop-hd > div, .sixteen-by-nine > div, .sixteen-by-nine > img, .three-by-two > img, .marvel > div, .invision > div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+iframe, video {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0.25rem 1rem rgba(32, 41, 51, 0.1);
+    height: 100%;
+    overflow: hidden;
+    -webkit-transition: box-shadow 0.5s 0.05s;
+    transition: box-shadow 0.5s 0.05s;
+}
+
+.card:hover {
+    box-shadow: 0 0.5rem 2rem rgba(32, 41, 51, 0.3);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-cyan {
+    background-color: cyan;
+}
+
+nav ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.max-width-measure {
+    max-width: 34em;
+}
+
+.sixteen-by-nine > img, .three-by-two > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+
+#vincentmvdm {
+    font-weight: 600;
+}
+
+#project-image {
+    height: 25rem;
+}
+
+#project-image img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+ins {
+    text-decoration: none;
+}
+
+footer .fa {
+    font-size: 1.25rem;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+::-moz-selection {
+    background-color: #006CD9;
+    color: white;
+}
+
+::selection {
+    background-color: #006CD9;
+    color: white;
+}
+
+.bg-section {
+    background-color: #E9F4FA;
+}
+
+.highlight {
+    color: #006CD9;
+    -webkit-transition: color .15s ease-in;
+    transition: color .15s ease-in;
+}
+
+.current {
+    color: #006CD9;
+}
+
+.highlight:hover {
+    color: #0079F3;
+}
+
+.lighten {
+    color: #616D73;
+    -webkit-transition: color .15s ease-in;
+    transition: color .15s ease-in;
+}
+
+#introduction {
+    padding: 4rem 0;
+}
+
+#contents {
+    border-left: 2px solid #1F2933;
+    list-style-type: none;
+    padding-left: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 999;
+    width: 32px;
+}
+
+@media only screen and (min-width: 40em) {
+    #project-image {
+        height: 35rem;
+    }
+
+    #introduction {
+        padding: 8rem 0;
+    }
+
+    blockquote {
+        margin-left: -1.5rem;
+    }
+
+    #contents {
+        margin-left: -1.5rem;
+    }
+}
+
+.fadeIn.delay {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.bg-perduko {
+    background-color: #FAF7EB;
+}
+
+.bg-carmax {
+    background-color: #F5FBFF;
+}
+
+.bg-carmax-alternative {
+    background-color: #FFFFFD;
+}
+
+.bg-getthere {
+    background-color: #FFF5F7;
+}
+
+.bg-gray {
+    background-color: #FAFAFA;
+}
+
+.shadow-getthere {
+    box-shadow: 0 0.25rem 1rem rgba(64, 64, 64, 0.1);
+}
+
+.bg-getthere-alternative {
+    background-color: #fbfbfb;
+}
+
+.shadow-carmax {
+    box-shadow: 0 0.25rem 1rem rgba(1, 38, 72, 0.1);
+}
+
+.shadow-scout {
+    box-shadow: 0 0.25rem 1rem rgba(17, 17, 17, 0.1);
+}
+
+.shadow-perduko {
+    box-shadow: 0 0.25rem 1rem rgba(7, 4, 13, 0.1);
+}
+
+.bg-creativeaid {
+    background-color: #FFF5F9;
+}
+
+.bg-scout {
+    background-color: #F5F5FF;
+}
+
+.shadow-creativeaid {
+    box-shadow: 0 0.25rem 1rem rgba(51, 51, 51, 0.1);
+}
+
+video {
+    background-color: white;
+}
+
+.bg-perduko-alternative {
+    background-color: #E6E6E6;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    color: #616D73;
+    font-style: italic;
+    font-size: .875rem;
+    padding-top: 1rem;
+}
+
+h4, h5, h6 {
+    color: #616D73;
+}
+
+#selected-projects a:hover, #recommended a:hover {
+    color: #1F2933;
+}
+
+body {
+    opacity: 0;
+}
+
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform .25s ease-out;
+}
+
+.grow:hover, .grow:focus {
+    transform: scale(1.05);
+}
+
+.grow:active {
+    transform: scale(.9);
+}
+
+@media only screen and (min-width: 74em) {
+    #back-to-top {
+        right: calc(calc(100% - 64em) / 2 + 16px - 4rem);
+    }
+}
