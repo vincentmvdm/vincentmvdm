@@ -8,17 +8,26 @@
                 <div class="flex items-center h-100">
                     <div class="col-10 px2">
                         <h1 class="my0">
-                            I am a product designer from the Netherlands studying Human Computer Interaction at the University of Washington.
+                            I am a designer and developer studying HCI at the University of Washington in Seattle.
                         </h1>
+                        <h2 class="mt2 mb0 regular">
+                            Currently, I am working on <a href="http://dubhacks.co/" target="_blank">DubHacks</a>. Previously, I designed experiences at <a href="https://www.amazon.com/" target="_blank">Amazon</a>.
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-12 px2">
+                    <div class="mt3">
+                        <a href="getthere.php" class="btn btn-primary py1 px2">Explore my work</a>
+                        <a href="mailto:meulen@uw.edu?Subject=Hi%20Vincent!" class="btn btn-primary ml1 py1 px2">meulen@uw.edu</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="selected-projects" class="bg-section py4">
+        <section id="selected-work" class="bg-section py4">
             <div class="max-width-4 mx-auto">
                 <div class="col-12 px2">
-                    <h2 class="mt0 mb2">Selected Projects</h2>
+                    <h2 class="mt0 mb2">Selected Work</h2>
                 </div>
 
                 <div class="flex flex-wrap justify-center">
