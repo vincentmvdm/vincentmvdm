@@ -188,6 +188,10 @@ video {
     box-shadow: 0 0.5rem 2rem rgba(32, 41, 51, 0.3);
 }
 
+.card:hover .lighten {
+    color: #006cd9;
+}
+
 .bg-black {
     background-color: black;
 }
