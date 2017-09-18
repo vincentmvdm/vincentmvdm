@@ -105,12 +105,11 @@ blockquote {
 }
 
 hr {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin: 0;
     border: 0;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: #ccc;
+    border-bottom-color: #dcdee0;
 }
 
 a {
@@ -437,6 +436,46 @@ body {
 
 .grow:active {
     transform: scale(0.9);
+}
+
+.resume .card {
+    border-radius: 0;
+}
+
+.resume nav {
+    border-bottom: 1px solid #dcdee0;
+}
+
+.resume footer {
+    border-top: 1px solid #dcdee0;
+}
+
+.resume ul {
+    list-style-type: none;
+}
+
+@media print {
+    body.resume {
+        margin: 0;
+    }
+
+    .md-col-7 {
+        width: 58.33333%;
+    }
+
+    .md-col-5 {
+        width: 41.66667%;
+    }
+
+    #resume-paper {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    nav,
+    footer {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 74em) {
