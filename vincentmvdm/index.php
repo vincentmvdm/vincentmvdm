@@ -24,10 +24,10 @@
             </div>
         </section>
 
-        <section id="selected-work" class="bg-section py4">
+        <section id="selected-projects" class="bg-section py4">
             <div class="max-width-4 mx-auto">
                 <div class="col-12 px2">
-                    <h2 class="mt0 mb2">Selected Work</h2>
+                    <h2 class="mt0 mb2">Selected Projects</h2>
                 </div>
 
                 <div class="flex flex-wrap justify-center">

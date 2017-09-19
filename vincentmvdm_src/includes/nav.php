@@ -14,9 +14,9 @@
                         <ul class="flex list-reset">
                             <?php if (basename($_SERVER['PHP_SELF'], '.php') !== 'index') { ?>
                                 <?php if (basename($_SERVER['PHP_SELF'], '.php') === 'about') { ?>
-                                    <a href="index.php#selected-work"><li class="px2">Work</li></a>
+                                    <a href="index.php#selected-projects"><li class="px2">Projects</li></a>
                                 <?php } else { ?>
-                                    <a href="index.php#selected-work" class="current"><li class="px2">Work</li></a>
+                                    <a href="index.php#selected-projects" class="current"><li class="px2">Projects</li></a>
                                 <?php } ?>
                             <?php } ?>
 
@@ -27,7 +27,7 @@
                                 <a href="about.php"><li class="px2">About</li></a>
                             <?php } ?>
                             -->
-
+                            
                             <a href="http://www.downloads.vincentmvdm.com/resume.pdf" target="_blank"><li class="px2">Resume</li></a>
                         </ul>
                     </div>
