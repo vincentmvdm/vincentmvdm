@@ -1,7 +1,6 @@
 var gulp                      = require('gulp'),
     postcss                   = require('gulp-postcss'),
     uglify                    = require('gulp-uglify'),
-    imagemin                  = require('gulp-imagemin'),
     browserSync               = require('browser-sync'),
     rename                    = require("gulp-rename"),
     concat                    = require("gulp-concat"),
@@ -29,7 +28,7 @@ gulp.task('css-2', function() {
     return gulp.src('./vincentmvdm_src/css/app.css')
         .pipe(postcss([require('postcss-import'),
                        require('postcss-custom-media'),
-                       require('postcss-custom-properties'), 
+                       require('postcss-custom-properties'),
                        require('postcss-calc')]))
         .pipe(rename("app.min.css"))
         .pipe(gulp.dest('./vincentmvdm/css'));
@@ -45,7 +44,7 @@ gulp.task('css-4', function() {
     return gulp.src('./vincentmvdm_src/css/vendor.css')
         .pipe(postcss([require('postcss-import'),
                        require('postcss-custom-media'),
-                       require('postcss-custom-properties'), 
+                       require('postcss-custom-properties'),
                        require('postcss-calc')]))
         .pipe(rename("vendor.min.css"))
         .pipe(gulp.dest('./vincentmvdm/css'));
