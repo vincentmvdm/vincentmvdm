@@ -418,10 +418,6 @@ h6 {
     color: #1f2933;
 }
 
-body {
-    opacity: 0;
-}
-
 .grow {
     -moz-osx-font-smoothing: grayscale;
     backface-visibility: hidden;
