@@ -1,8 +1,4 @@
-        <?php if (basename($_SERVER['PHP_SELF'], '.php') !== 'index') { ?>
             <nav class="py3" id="top">
-        <?php } else { ?>
-            <nav class="py3" id="top">
-        <?php } ?>
                 <div class="max-width-4 mx-auto">
                     <div class="flex justify-between">
                         <div class="px2">

@@ -1,4 +1,11 @@
 {
+    "amazon": {
+        "image": "images/amazon/hero-640w.jpg 1x, images/amazon/hero-640w@2x.jpg 2x",
+        "title": "Amazon",
+        "period": "Summer 2017",
+        "description": "A design for an app for car retailer CarMax.",
+        "url": "amazon.php"
+    },
     "carmax": {
         "image": "images/carmax/hero-640w.jpg 1x, images/carmax/hero-640w@2x.jpg 2x",
         "title": "CarMax",

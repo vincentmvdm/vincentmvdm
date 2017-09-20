@@ -39,14 +39,13 @@
         <section class="py4 bg-white">
             <div class="max-width-4 mx-auto">
                 <div class="col-12 px2">
-                    <h3 class="my0">Bookshelf</h3>
-                    <p class="mt1 mb1">Books I am currently reading</p>
+                    <h3 class="my0">Current Bookshelf</h3>
                 </div>
                 <div class="flex flex-wrap justify-center">
                     <div class="col-12 sm-col-4 px2">
                         <a href="http://a.co/cM9Bomk" target="_blank">
                             <h4>Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked</h4>
-                            <p class="mt0">by Adam Alter</p>
+                            <p class="my0">by Adam Alter</p>
                         </a>
                     </div>
                     <div class="col-12 sm-col-4 px2">
@@ -58,15 +57,10 @@
                         </a>
                     </div>
                     <div class="col-12 sm-col-4 px2">
-
                         <a href="http://a.co/h7ScsII" target="_blank">
                             <h4>The Idealist: Aaron Swartz and the Rise of Free Culture on the Internet</h4>
-                            <p class="mt0">by Justin Peters</p>
+                            <p class="my0">by Justin Peters</p>
                         </a>
-
-
-
-
                     </div>
                 </div>
             </div>
