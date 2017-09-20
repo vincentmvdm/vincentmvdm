@@ -27,7 +27,7 @@
                                 <a href="about.php"><li class="px2">About</li></a>
                             <?php } ?>
                             -->
-                            
+
                             <a href="http://www.downloads.vincentmvdm.com/resume.pdf" target="_blank"><li class="px2">Resume</li></a>
                         </ul>
                     </div>

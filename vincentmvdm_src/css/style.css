@@ -450,6 +450,17 @@ h6 {
     list-style-type: none;
 }
 
+/*
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+*/
+
 @media print {
     body.resume {
         margin: 0;
