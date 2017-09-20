@@ -1,7 +1,7 @@
         <?php if (basename($_SERVER['PHP_SELF'], '.php') !== 'index') { ?>
             <nav class="py3" id="top">
         <?php } else { ?>
-            <nav class="pt3" id="top">
+            <nav class="py3" id="top">
         <?php } ?>
                 <div class="max-width-4 mx-auto">
                     <div class="flex justify-between">
@@ -20,13 +20,11 @@
                                 <?php } ?>
                             <?php } ?>
 
-                            <!--
                             <?php if (basename($_SERVER['PHP_SELF'], '.php') === 'about') { ?>
                                 <a href="about.php" class="current"><li class="px2">About</li></a>
                             <?php } else { ?>
                                 <a href="about.php"><li class="px2">About</li></a>
                             <?php } ?>
-                            -->
 
                             <a href="http://www.downloads.vincentmvdm.com/resume.pdf" target="_blank"><li class="px2">Resume</li></a>
                         </ul>
