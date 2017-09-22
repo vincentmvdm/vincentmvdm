@@ -40,18 +40,23 @@ h3 {
 h1 {
     font-size: 2rem;
 }
+
 h2 {
     font-size: 1.5rem;
 }
+
 h3 {
     font-size: 1.25rem;
 }
+
 h4 {
     font-size: 1rem;
 }
+
 h5 {
     font-size: 0.875rem;
 }
+
 h6 {
     font-size: 0.75rem;
 }
@@ -264,6 +269,10 @@ footer .fa {
     box-shadow: 0 0.5rem 2rem rgba(32, 41, 51, 0.1);
 }
 
+.book-container:hover h4, .book-container:hover p {
+    color: #336cd9;
+}
+
 .book-container:hover .book .st1 {
     fill: #336cd9;
 }
@@ -361,45 +370,14 @@ footer .fa {
     }
 }
 
-.fadeIn {
-    animation: fadeIn;
+.test {
+    animation: test;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 
-.fadeIn-1 {
-    animation: fadeIn1;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-    animation-duration: 2s;
-}
-
-.fadeIn-2 {
-    animation: fadeIn2;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-    animation-duration: 2s;
-}
-
-.fadeIn-3 {
-    animation: fadeIn3;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-    animation-duration: 2s;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 100%;
-    }
-}
-
-@keyframes fadeIn1 {
+@keyframes test {
     0% {
         opacity: 0;
     }
@@ -413,36 +391,15 @@ footer .fa {
     }
 }
 
-@keyframes fadeIn2 {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 100%;
-    }
+.test2 {
+    animation: test;
+    animation-duration: 1.5s;
 }
 
-@keyframes fadeIn3 {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 100%;
-    }
+.test3 {
+    animation: test;
+    animation-duration: 2s;
 }
-
-
-
 
 
 .bg-perduko {

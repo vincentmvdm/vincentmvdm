@@ -7,15 +7,15 @@
             <div class="max-width-4 mx-auto h-100">
                 <div class="flex items-center h-100">
                     <div class="col-10 px2">
-                        <h1 class="my0 fadeIn1">
+                        <h1 class="my0 test">
                             I am a designer and developer studying HCI at the University of Washington in Seattle.
                         </h1>
-                        <h2 class="mt2 mb0 regular fadeIn1">
+                        <h2 class="mt2 mb0 regular test2">
                             Currently, I am working on <a href="http://dubhacks.co/" target="_blank">DubHacks</a>. Previously, I designed experiences at <a href="https://www.amazon.com/" target="_blank">Amazon</a>.
                         </h2>
                     </div>
                 </div>
-                <div class="col-12 px2 fadeIn2">
+                <div class="col-12 px2 test3">
                     <div class="mt3">
                         <a href="mailto:meulen@uw.edu?Subject=Hi%20Vincent!" class="btn btn-primary py1 px2">meulen@uw.edu</a>
                         <a href="getthere.php" class="btn btn-primary ml1 py1 px2">Explore my work</a>
