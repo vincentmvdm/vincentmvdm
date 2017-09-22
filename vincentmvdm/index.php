@@ -37,7 +37,6 @@
                     ?>
 
                     <?php foreach ($projects as $project) { ?>
-
                         <div class="col-12 sm-col-6 md-col-4 px2 mt3">
                             <a href="<?= $project["url"]; ?>" class="fadeBetween">
                                 <article class="card">
@@ -54,7 +53,6 @@
                                 </article>
                             </a>
                         </div>
-
                     <?php } ?>
                 </div>
             </div>
