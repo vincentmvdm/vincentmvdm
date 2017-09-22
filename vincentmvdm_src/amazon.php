@@ -33,10 +33,13 @@
                         <p>
                             I interned as a UX designer for Amazon Trade-In during the Summer of 2017. Trade-In enables customers to send in their used items and get paid for them.
                         </p>
-                        <h2>What I did</h2>
-                        <h3>The two projects</h3>
+                        <h2>The Two Projects</h2>
                         <p>
-                            Over the course of three months, I did two projects. The goal of my first, 3-week project was to improve the Trade-In experience as it exists today. As my second project, which took up the remaining three months, I came up with a new Trade-In feature. This project was unconventional as I was responsible for coming up with the feature (how is it going to make money?) as well as design it. I ultimately accomplished this with the following deliverables:
+                            Over the course of three months, I did two projects. The goal of my first, 3-week project was to improve the Trade-In experience as it exists today. For my second project, which took up the remaining three months, I both came up with and designed a new Trade-In feature. My second project was unconventional because design interns are normally not responsible for making the business decisions behind their designs, and the extra documentation (like the Working Backwards document) that comes with this. Instead, they tend to provide the designs for existing ideas.
+                        </p>
+
+                        <p class="pb1">
+                            To make my second project a success, I worked towards a working backwards document, the document that is used to decide whether new ideas should be proceeded as well as a prototype. Ultimately, I delivered the following deliverables:
                         </p>
 
                         <ul class="pl0 mt2 list-style-none">
@@ -146,17 +149,20 @@
                             </li>
                         </ul>
 
-                        <h3>Side projects</h3>
+                        <h2>Side Projects</h2>
                         <p>
-                            Apart from my two main projects, I worked on several things on the side. I participated in an Alexa hackathon and learned how to design voice interfaces. Because my team, consisting out of three engineers, had their hands full with the database, I learned how to use Node.js and wrote the part of our skill that is responsible for making API calls myself. Furthermore, I prototyped part of a new Amazon feature, that makes use of object recognition, in Origami.
+                            When I was not busy working on my main projects, I tried to learn new things on the side. My manager shared an idea for a new Amazon feature that makes use of object recognition with me. I decided to see if we could make a proof of concept for an internal pitch competition. This question led me to Origami and several days/YouTube videos later I had a prototype that simulated object using the iOS camera.
+                        </p>
+                        <p>
+                            I also participated in an Alexa hackathon and learned how to design voice interfaces. My team, consisting out of three engineers, had their hands full with the database, so I learned Node.js and wrote the code that is responsible for making API calls myself.
                         </p>
 
-                        <h2>What I Learned</h2>
+                        <h2>Lessons Learned</h2>
                         <p>
-                            During my internship, I improved a lot at in two specific areas: systems thinking and customer obsession. I got better at systems thinking because I was responsible for the business logic at the heart of designs. Junior designers do not frequently get to do this. I had to ensure that my feature can be successful for several years, and that required me to synthesize answers to multiple questions focused on the future: “What are our customers going to want?”, “What is our competition going to do?” and “Where is the Trade-In industry going?”.
+                            Throughout my internship, I improved a lot in two specific areas: systems thinking and customer obsession. I got better at systems thinking because I was responsible for the business decisions at the heart of my designs. I had to ensure that my feature can be successful for several years, and that required me to synthesize answers to multiple questions focused on the future: “What are our customers going to want?”, “What is our competition going to do?” and “Where is the Trade-In industry going?”.
                         </p>
                         <p>
-                            I became more customer obsessed since I learned that the words we use in our designs are just as important as the pixels. Towards the end of my internship, I spend more time polishing sentences than visuals. I also picked up on something I noticed my colleagues did a lot: making decisions that at first seem counterintuitive from a business perspective to better serve the customer.
+                            I became more customer obsessed since I learned that the words we use in our designs are just as important as the pixels. Towards the end of my internship, I spend more time polishing sentences than visuals. I also picked up on something I noticed my colleagues do a lot: making decisions that at first seem counterintuitive from a business perspective to better serve the customer.
                         </p>
                         <figure class="py3">
                             <a href="images/amazon/friends.jpg">
