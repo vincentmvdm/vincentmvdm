@@ -25,7 +25,6 @@
             <div class="max-width-4 mx-auto">
                 <div class="col-12 px2">
                     <div class="max-width-measure mx-auto">
-
                         <h1 class="mt0"><?= $project['title']; ?></h1>
                         <p class="lighten"><?= $project['period']; ?></p>
 
@@ -33,13 +32,14 @@
                         <p>
                             I interned as a UX designer for Amazon Trade-In during the Summer of 2017. Trade-In enables customers to send in their used items and get paid for them.
                         </p>
+
                         <h2>The Two Projects</h2>
                         <p>
-                            Over the course of three months, I did two projects. The goal of my first, 3-week project was to improve the Trade-In experience as it exists today. For my second project, which took up the remaining three months, I both came up with and designed a new Trade-In feature. My second project was unconventional because design interns are normally not responsible for making the business decisions behind their designs, and the extra documentation (like the Working Backwards document) that comes with this. Instead, they tend to provide the designs for existing ideas.
+                            Over the course of three months, I did two projects. The goal of my first, three-week project was to improve the Trade-In experience as it exists today. For my second project, which took up the remaining three months, I both came up with and designed a new Trade-In feature. This project was unconventional because junior designers are seldom responsible for making the business decisions that drive their designs.
                         </p>
 
                         <p class="pb1">
-                            To make my second project a success, I worked towards a working backwards document, the document that is used to decide whether new ideas should be proceeded as well as a prototype. Ultimately, I delivered the following deliverables:
+                            To make my second project a success, I worked towards a Working Backwards document, the document that is used to decide whether Amazon should pursue ideas or not, as well as a prototype. Ultimately, I provided the following deliverables:
                         </p>
 
                         <ul class="pl0 mt2 list-style-none">
@@ -47,7 +47,7 @@
                                 <div class="flex">
                                     &bull;
                                     <div class="ml2">
-                                        Competitor Analysis and Literature Review
+                                        Competitor analysis and literature review
                                     </div>
                                 </div>
                             </li>
@@ -55,7 +55,7 @@
                                 <div class="flex">
                                     &bull;
                                     <div class="ml2">
-                                        Preliminary Recommendations I
+                                        Preliminary recommendations I
                                     </div>
                                 </div>
                             </li>
@@ -63,7 +63,7 @@
                                 <div class="flex">
                                     &bull;
                                     <div class="ml2">
-                                        6 User Interviews
+                                        6 user interviews
                                     </div>
                                 </div>
                             </li>
@@ -71,7 +71,7 @@
                                 <div class="flex">
                                     &bull;
                                     <div class="ml2">
-                                        User Research Report
+                                        User research report
                                     </div>
                                 </div>
                             </li>
@@ -79,7 +79,7 @@
                                 <div class="flex">
                                     &bull;
                                     <div class="ml2">
-                                        Preliminary Recommendations II
+                                        Preliminary recommendations II
                                     </div>
                                 </div>
                             </li>
@@ -135,7 +135,7 @@
                                 <div class="flex">
                                     &bull;
                                     <div class="ml2">
-                                        Working Backwards document
+                                        Working backwards document
                                     </div>
                                 </div>
                             </li>
@@ -151,7 +151,7 @@
 
                         <h2>Side Projects</h2>
                         <p>
-                            When I was not busy working on my main projects, I tried to learn new things on the side. My manager shared an idea for a new Amazon feature that makes use of object recognition with me. I decided to see if we could make a proof of concept for an internal pitch competition. This question led me to Origami and several days/YouTube videos later I had a prototype that simulated object using the iOS camera.
+                            When I was not busy working on my main projects, I tried to learn new things on the side. My manager shared an idea for a new Amazon feature that makes use of object recognition with me. I decided to see if we could make a proof of concept for an internal pitch competition. This question led me to Origami, and several days/YouTube videos later I had a prototype that simulated object recognition using the iOS camera.
                         </p>
                         <p>
                             I also participated in an Alexa hackathon and learned how to design voice interfaces. My team, consisting out of three engineers, had their hands full with the database, so I learned Node.js and wrote the code that is responsible for making API calls myself.
@@ -162,8 +162,9 @@
                             Throughout my internship, I improved a lot in two specific areas: systems thinking and customer obsession. I got better at systems thinking because I was responsible for the business decisions at the heart of my designs. I had to ensure that my feature can be successful for several years, and that required me to synthesize answers to multiple questions focused on the future: “What are our customers going to want?”, “What is our competition going to do?” and “Where is the Trade-In industry going?”.
                         </p>
                         <p>
-                            I became more customer obsessed since I learned that the words we use in our designs are just as important as the pixels. Towards the end of my internship, I spend more time polishing sentences than visuals. I also picked up on something I noticed my colleagues do a lot: making decisions that at first seem counterintuitive from a business perspective to better serve the customer.
+                            I became more customer-obsessed since I learned that the words we use in our designs are just as important as the pixels. Towards the end of my internship, I spend more time polishing sentences than visuals. I also picked up on something I noticed my colleagues do a lot: making decisions that at first seem counterintuitive from a business perspective to better serve the customer.
                         </p>
+
                         <figure class="py3">
                             <a href="images/amazon/friends.jpg">
                                 <img src="images/amazon/friends.jpg" alt="My friends and I near the end of our internships">
