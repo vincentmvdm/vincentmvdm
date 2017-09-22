@@ -18,7 +18,7 @@
                 <div class="col-12 px2 delay-2">
                     <div class="mt3">
                         <a href="mailto:meulen@uw.edu?Subject=Hi%20Vincent!" class="btn btn-primary py1 px2">meulen@uw.edu</a>
-                        <a href="getthere.php" class="btn btn-primary ml1 py1 px2">Explore my work</a>
+                        <a href="amazon.php" class="btn btn-primary ml1 py1 px2">Explore my work</a>
                     </div>
                 </div>
             </div>

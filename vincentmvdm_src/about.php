@@ -11,7 +11,7 @@
             <div class="max-width-4 mx-auto">
                 <div class="flex justify-center">
                     <div class="col-12 md-col-9 px2">
-                        <div class="relative" id="about-container">
+                        <div class="relative mb1" id="about-container">
                             <div class="absolute" id="blue"></div>
                             <img src="images/about/vincent.jpg" alt="Vincent" id="vincent">
                         </div>

@@ -158,6 +158,14 @@
                         <p>
                             I became more customer obsessed since I learned that the words we use in our designs are just as important as the pixels. Towards the end of my internship, I spend more time polishing sentences than visuals. I also picked up on something I noticed my colleagues did a lot: making decisions that at first seem counterintuitive from a business perspective to better serve the customer.
                         </p>
+                        <figure class="py3">
+                            <a href="images/amazon/friends.jpg">
+                                <img src="images/amazon/friends.jpg" alt="My friends and I near the end of our internships">
+                            </a>
+                            <figcaption>
+                                My friends and I near the end of our internships. "3 months went by quick."
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
             </div>
