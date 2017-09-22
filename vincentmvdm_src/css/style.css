@@ -210,7 +210,9 @@ nav ul {
     font-weight: 600;
 }
 
-#vincent {}
+#vincent {
+    animation: moveUp 0.5s ease-out forwards;
+}
 
 #project-image {
     height: 25rem;
@@ -232,19 +234,7 @@ footer .fa {
 }
 
 .bg-linear {
-    background: linear-gradient(360deg, white, #E8F1FA);
-}
-
-footer {
-    background-color: #1f2933;
-}
-
-footer a, footer p {
-    color: #BEC5CC;
-}
-
-footer a:hover {
-    color: white;
+    background: linear-gradient(360deg, white, #F2F4F7);
 }
 
 .h-100 {
@@ -265,8 +255,21 @@ footer a:hover {
     color: white;
 }
 
+.book {
+    width: 40px;
+    box-shadow: 0 0.25rem 1rem rgba(32, 41, 51, 0.05);
+}
+
+.book-container:hover .book {
+    box-shadow: 0 0.5rem 2rem rgba(32, 41, 51, 0.1);
+}
+
+.book-container:hover .book .st1 {
+    fill: #336cd9;
+}
+
 .bg-section {
-    background-color: #e9f4fa;
+    background-color: #E8EFFA;
 }
 
 .highlight {
@@ -314,11 +317,30 @@ footer a:hover {
     background-color: #1f2933;
     color: white;
     border-radius: 4px;
+    box-shadow: 0 0.25rem 1rem rgba(32, 41, 51, 0.1);
 }
 
 .btn:hover {
     color: white;
     background-color: #336cd9;
+    box-shadow: 0 0.5rem 2rem rgba(32, 41, 51, 0.3);
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid #1f2933;
+    color: #1f2933;
+    box-shadow: none;
+}
+
+.btn-outline:hover {
+    border-color: #336cd9;
+}
+
+.btn:hover.btn-outline {
+    background-color: transparent;
+    color: #336cd9;
+    box-shadow: 0 0.25rem 1rem rgba(32, 41, 51, 0.1);
 }
 
 @media only screen and (min-width: 40em) {
@@ -440,8 +462,10 @@ footer a:hover {
 }
 
 .bg-gray {
-    background-color: #fafafa;
+    background-color: #F2F4F7;
 }
+
+
 
 .shadow-getthere {
     box-shadow: 0 0.25rem 1rem rgba(64, 64, 64, 0.1);
@@ -533,9 +557,7 @@ h6 {
     border-top: 1px solid #dcdee0;
 }
 
-body.about {
-    background-color: #E8F1FA;
-}
+
 nav {
 
     color: white;
@@ -555,6 +577,16 @@ footer a {
     color: white;
 }
 */
+
+@keyframes moveUp {
+    0% {
+        box-shadow: 0 0 0 rgba(32, 41, 51, 0);
+    }
+
+    100% {
+        box-shadow: 0 0.25rem 8rem rgba(32, 41, 51, 0.2);
+    }
+}
 
 @keyframes warp {
     0% {

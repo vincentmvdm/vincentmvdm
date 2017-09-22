@@ -36,31 +36,79 @@
                 </div>
             </div>
         </section>
-        <section class="py4 bg-white">
+
+        <section class="py4 bg-section">
             <div class="max-width-4 mx-auto">
                 <div class="col-12 px2">
                     <h3 class="my0">Current Bookshelf</h3>
                 </div>
                 <div class="flex flex-wrap justify-center">
                     <div class="col-12 sm-col-4 px2">
-                        <a href="http://a.co/cM9Bomk" target="_blank">
-                            <h4>Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked</h4>
-                            <p class="my0">by Adam Alter</p>
-                        </a>
+                        <div class="book-container mt3">
+                            <a href="http://a.co/cM9Bomk" target="_blank">
+                                <svg version="1.1" class="book" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                     viewBox="0 0 32 40" style="enable-background:new 0 0 32 40;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0{fill:none;}
+                                    .st1{fill:#1F2933;}
+                                </style>
+                                <title>book</title>
+                                <path class="st0" d="M-8-4h48v48H-8V-4z"/>
+                                <path class="st1" d="M28,0H4C1.8,0,0,1.8,0,4v32c0,2.2,1.8,4,4,4h24c2.2,0,4-1.8,4-4V4C32,1.8,30.2,0,28,0z M4,4h10v16l-5-3l-5,3V4z
+                                    "/>
+                                </svg>
+
+                                <div>
+                                    <h4 class="mt2">Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked</h4>
+                                    <p class="my0">by Adam Alter</p>
+                                </div>
+                            </a>
+                        </div>
+
                     </div>
                     <div class="col-12 sm-col-4 px2">
-                        <a href="http://a.co/0SD6KjQ" target="_blank">
-                            <h4>Zero to One: Notes on Startups, or How to Build the Future</h4>
-                            <p class="my0">
-                                by Peter Thiel and Blake Masters
-                            </p>
-                        </a>
+                        <div class="book-container mt3">
+                            <a href="http://a.co/iy4OiE9" target="_blank">
+                                <svg version="1.1" class="book" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                     viewBox="0 0 32 40" style="enable-background:new 0 0 32 40;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0{fill:none;}
+                                    .st1{fill:#1F2933;}
+                                </style>
+                                <title>book</title>
+                                <path class="st0" d="M-8-4h48v48H-8V-4z"/>
+                                <path class="st1" d="M28,0H4C1.8,0,0,1.8,0,4v32c0,2.2,1.8,4,4,4h24c2.2,0,4-1.8,4-4V4C32,1.8,30.2,0,28,0z M4,4h10v16l-5-3l-5,3V4z
+                                    "/>
+                                </svg>
+
+                                <div>
+                                    <h4 class="mt2">Zero to One: Notes on Startups, or How to Build the Future</h4>
+                                    <p class="my0">by Peter Thiel and Blake Masters</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                     <div class="col-12 sm-col-4 px2">
-                        <a href="http://a.co/h7ScsII" target="_blank">
-                            <h4>The Idealist: Aaron Swartz and the Rise of Free Culture on the Internet</h4>
-                            <p class="my0">by Justin Peters</p>
-                        </a>
+                        <div class="book-container mt3">
+                            <a href="http://a.co/h7ScsII" target="_blank">
+                                <svg version="1.1" class="book" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                     viewBox="0 0 32 40" style="enable-background:new 0 0 32 40;" xml:space="preserve">
+                                <style type="text/css">
+                                    .st0{fill:none;}
+                                    .st1{fill:#1F2933;}
+                                </style>
+                                <title>book</title>
+                                <path class="st0" d="M-8-4h48v48H-8V-4z"/>
+                                <path class="st1" d="M28,0H4C1.8,0,0,1.8,0,4v32c0,2.2,1.8,4,4,4h24c2.2,0,4-1.8,4-4V4C32,1.8,30.2,0,28,0z M4,4h10v16l-5-3l-5,3V4z
+                                    "/>
+                                </svg>
+
+                                <div>
+                                    <h4 class="mt2">The Idealist: Aaron Swartz and the Rise of Free Culture on the Internet</h4>
+                                    <p class="my0">by Justin Peters</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
