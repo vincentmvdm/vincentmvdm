@@ -216,7 +216,7 @@ nav ul {
 }
 
 #vincent {
-    animation: moveUp 0.5s ease-out forwards;
+    box-shadow: 0 0.25rem 8rem rgba(32, 41, 51, 0.2);
 }
 
 #project-image {
@@ -370,14 +370,13 @@ footer .fa {
     }
 }
 
-.test {
-    animation: test;
+.fadeIn {
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
 }
 
-@keyframes test {
+@keyframes fadeIn {
     0% {
         opacity: 0;
     }
@@ -391,14 +390,44 @@ footer .fa {
     }
 }
 
-.test2 {
-    animation: test;
-    animation-duration: 1.5s;
+@keyframes delay-1 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
 
-.test3 {
-    animation: test;
-    animation-duration: 2s;
+@keyframes delay-2 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.delay-1 {
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+.delay-2 {
+    animation-duration: 4.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 }
 
 
@@ -524,17 +553,6 @@ nav {
     list-style-type: none;
 }
 
-/*
-footer {
-    background-color: black;
-    color: white;
-}
-
-footer a {
-    color: white;
-}
-*/
-
 @keyframes moveUp {
     0% {
         box-shadow: 0 0 0 rgba(32, 41, 51, 0);
@@ -586,11 +604,11 @@ a:hover, a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6,
 #blue {
     left: 75%;
     bottom: 75%;
-    animation: warp 0.5s ease-out forwards;
+    top: -5%;
+    right: -3.33%;
     background-color: #336cd9;
     z-index: -1;
 }
-
 
 @media print {
     body.resume {
