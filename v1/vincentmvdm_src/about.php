@@ -19,10 +19,10 @@
                             <?php $streak = floor((time() - strtotime("2017-05-25")) / (60 * 60 * 24)); ?>
                             <h2 class="mt3">About</h2>
                             <p>
-                                Hi! My name is Vincent, and I'm a junior studying Informatics, a mix between design and computer science, at the University of Washington in Seattle. I'm originally from the Netherlands (you'll notice the funky accent) and am a designer who codes. At the moment, I'm interested in captology, design systems, AR and React.
+                                Hi! My name is Vincent, and I'm a junior studying Informatics, a mix between design and computer science, at the University of Washington in Seattle. I'm originally from the Netherlands (you'll notice the funky accent) and am a designer who codes. At the moment, I'm interested in design tools and React (Native).
                             </p>
                             <p>
-                                As I'm learning more about what makes people do or not do something, I'm trying to use this knowledge to develop habits. Every day, I sit down to write some code and publish it on GitHub. Today is day <?= $streak ?> of doing that.
+                                Every day, I sit down to write some code and publish it on <a href="https://github.com/vincentmvdm" target="_blank" class="blue-fill">GitHub</a>. Today is day <?= $streak ?> of doing that. I am currently working on a Slack-like chat app, a web app that helps air ambulance <a href="http://www.uwmedicine.org/airlift-nw" target="_blank" class="blue-fill">Airlift Northwest</a> manage their transports, and a Sketch plugin that makes it easier for designers to use color creatively. The last project I shipped was <a href="https://twitter.com/vincentmvdm/status/947870103810510849" target="_blank" class="blue-fill">a $75 per room Sonos alternative</a>.
                             </p>
                             <p>
                                 I've wanted to visit Boston for forever, so if that's where you live, or you just want to reach out, my email is below ;)
