@@ -43,12 +43,12 @@
                 </div>
                 <div class="flex flex-wrap justify-center">
                     <div class="col-12 sm-col-4 px2">
-                        <a href="http://a.co/cM9Bomk" target="_blank">
+                        <a href="http://a.co/aT0KDqJ" target="_blank">
                             <div class="book-container mt3">
                                 <?php include("includes/book.php"); ?>
                                 <div>
-                                    <h4 class="mt2">Irresistible: The Rise of Addictive Technology and the Business of Keeping Us Hooked</h4>
-                                    <p class="my0">by Adam Alter</p>
+                                    <h4 class="mt2">Understanding Power</h4>
+                                    <p class="my0">by Noah Chomsky</p>
                                 </div>
                             </div>
                         </a>
