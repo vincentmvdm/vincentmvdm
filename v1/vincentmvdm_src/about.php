@@ -43,34 +43,34 @@
                 </div>
                 <div class="flex flex-wrap justify-center">
                     <div class="col-12 sm-col-4 px2">
-                        <a href="http://a.co/aT0KDqJ" target="_blank">
+                        <a href="http://a.co/cyRnj2m" target="_blank">
                             <div class="book-container mt3">
                                 <?php include("includes/book.php"); ?>
                                 <div>
-                                    <h4 class="mt2">Understanding Power</h4>
-                                    <p class="my0">by Noah Chomsky</p>
+                                    <h4 class="mt2">High Output Management</h4>
+                                    <p class="my0">by Andrew Grove</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-12 sm-col-4 px2">
-                        <a href="http://a.co/iy4OiE9" target="_blank">
+                        <a href="http://a.co/hqDiNbN" target="_blank">
                             <div class="book-container mt3">
                                 <?php include("includes/book.php"); ?>
                                 <div>
-                                    <h4 class="mt2">Zero to One: Notes on Startups, or How to Build the Future</h4>
-                                    <p class="my0">by Peter Thiel and Blake Masters</p>
+                                    <h4 class="mt2">Understanding Power: The Indispensable Chomsky</h4>
+                                    <p class="my0">by Noam Chomsky</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-12 sm-col-4 px2">
-                        <a href="http://a.co/h7ScsII" target="_blank">
+                        <a href="http://a.co/1Y94jv8" target="_blank">
                             <div class="book-container mt3">
                                 <?php include("includes/book.php"); ?>
                                 <div>
-                                    <h4 class="mt2">The Idealist: Aaron Swartz and the Rise of Free Culture on the Internet</h4>
-                                    <p class="my0">by Justin Peters</p>
+                                    <h4 class="mt2">Principles: Life and Work</h4>
+                                    <p class="my0">by Ray Dalio</p>
                                 </div>
                             </div>
                         </a>
