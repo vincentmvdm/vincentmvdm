@@ -13,7 +13,7 @@
                             </div>
                         </div>
                         <div class="max-width-measure mx-auto">
-                            <h2>Tandem</h2>
+                            <h2><?= $title ?></h2>
                             <span class="lighten">Placeholder</span>
                             <p>
                                 Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
