@@ -1,9 +1,13 @@
-<?php $title = "Portfolio Vincent van der Meulen"; ?>
+<?php
+    $title = "Portfolio Vincent van der Meulen";
 
-<?php require("includes/head.php"); ?>
-<?php require("includes/nav.php"); ?>
+    require("includes/head.php"); 
+    require("includes/nav.php");
+    require("components/experiment.php");
 
-<?php require("components/experiment.php"); ?>
+    $experiments = file_get_contents("data/experiments.json");
+    $experiments = json_decode($experiments, TRUE);
+?>
 
         <section class="py4">
             <div class="max-width-4 mx-auto">
@@ -18,11 +22,15 @@
             </div>
         </section>
 
-        <?php experiment("placeholder", "placeholder", "Tandem", "placeholder", "placeholder") ?>
-        <?php experiment("placeholder", "placeholder", "Color Me Surprised", "placeholder", "placeholder") ?>
-        <?php experiment("placeholder", "placeholder", "Home Sound System", "placeholder", "placeholder") ?>
-        <?php experiment("placeholder", "placeholder", "Similar Details", "placeholder", "placeholder") ?>
-        <?php experiment("placeholder", "placeholder", "Allergenie", "placeholder", "placeholder") ?>
-        <?php experiment("placeholder", "placeholder", "Caesar", "placeholder", "placeholder") ?>
+        <section class="bg-section">
+            <?php
+                for ($i = 0; $i < count($experiments); $i++) {
+                    $experiment = $experiments[$i];
+                    $isLast = ($i === count($experiments) - 1);
+
+                    experiment($experiment["media"], $experiment["mediaType"], $experiment["title"], $experiment["tools"], $experiment["description"], $isLast);
+                }
+            ?>
+        </section>
 
 <?php require("includes/footer.php"); ?>
