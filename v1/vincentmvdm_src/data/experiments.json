@@ -24,24 +24,24 @@
         "description": ""
     },
     "homesoundsystem": {
-        "media": "",
-        "mediaType": "",
+        "media": "https://www.youtube.com/embed/Ns_8FLDtPwA",
+        "mediaType": "video",
         "title": "Home Sound System",
         "period": "",
         "tools": "",
         "description": ""
     },
     "similardetails": {
-        "media": "",
-        "mediaType": "",
+        "media": "similar_details.png",
+        "mediaType": "image",
         "title": "Similar Details",
         "period": "",
         "tools": "",
         "description": ""
     },
     "allergenie": {
-        "media": "",
-        "mediaType": "",
+        "media": "https://www.youtube.com/embed/zRl9WaOlYU8",
+        "mediaType": "video",
         "title": "Allergenie",
         "period": "",
         "tools": "",

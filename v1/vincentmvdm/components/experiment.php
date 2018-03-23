@@ -4,18 +4,30 @@
             <div class="py4">
                 <div class="max-width-4 mx-auto">
                     <div class="col-12 px2">
-                        <div class="max-width-3 mx-auto">
-                            <div class="sixteen-by-nine">
-                                <div>
-                                    <iframe src="https://www.youtube.com/embed/zRl9WaOlYU8" frameborder="0" allowfullscreen=""></iframe>
+
+                        <?php if ($mediaType === "video") { ?> 
+                            <div class="max-width-3 mx-auto">
+                                <div class="sixteen-by-nine">
+                                    <div>
+                                        <iframe src="<?= $media ?>" frameborder="0" allowfullscreen=""></iframe>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        <?php } else { ?>
+                            <div class="max-width-3 mx-auto">
+                                <img src="images/experiments/<?= $media ?>" alt="My friends and I near the end of our internships">
+                            </div>
+                        <?php } ?>
+
+
                         <div class="max-width-measure mx-auto">
-                            <h2><?= $title ?></h2>
-                            <span class="lighten">
-                            </span>
-                            <p>
+                            <div class="pb1">
+                                <h2 class="mb1"><?= $title ?></h2>
+                                <span class="lighten mt0">
+                                    One line project description
+                                </span>
+                            </div>
+                            <p class="mt2">
                                 Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
                             </p>
                             <p class="mb0">

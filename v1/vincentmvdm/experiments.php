@@ -6,9 +6,9 @@
     require("components/experiment.php");
 
     $experiments = file_get_contents("data/experiments.json");
-    $experiments = json_decode($experiments, TRUE);
-?>
+    $experiments = array_values(json_decode($experiments, TRUE));
 
+?>
         <section class="py4">
             <div class="max-width-4 mx-auto">
                 <div class="col-12 px2">
@@ -27,8 +27,8 @@
                 for ($i = 0; $i < count($experiments); $i++) {
                     $experiment = $experiments[$i];
                     $isLast = ($i === count($experiments) - 1);
-
-                    experiment($experiment["media"], $experiment["mediaType"], $experiment["title"], $experiment["tools"], $experiment["description"], $isLast);
+                    
+                    experiment($experiment["mediaType"], $experiment["media"], $experiment["title"], $experiment["tools"], $experiment["description"], $isLast);
                 }
             ?>
         </section>
