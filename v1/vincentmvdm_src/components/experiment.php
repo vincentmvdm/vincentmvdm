@@ -4,7 +4,6 @@
             <div class="py4">
                 <div class="max-width-4 mx-auto">
                     <div class="col-12 px2">
-
                         <?php if ($mediaType === "video") { ?> 
                             <div class="max-width-3 mx-auto">
                                 <div class="sixteen-by-nine">
@@ -13,12 +12,18 @@
                                     </div>
                                 </div>
                             </div>
+                        <?php } else if ($media === "tandem.png") { ?>
+                            <div class="two-by-one">
+                                    <div>
+                                        <img src="images/experiments/<?= $media ?>" alt="<?= $title ?>" style="width: 100%; height: 100%; object-fit: contain">
+                                    </div>
+                                </div>
+                            </div> 
                         <?php } else { ?>
                             <div class="max-width-3 mx-auto">
-                                <img src="images/experiments/<?= $media ?>" alt="My friends and I near the end of our internships">
+                                <img src="images/experiments/<?= $media ?>" alt="<?= $title ?>">
                             </div>
                         <?php } ?>
-
 
                         <div class="max-width-measure mx-auto">
                             <div class="pb1">

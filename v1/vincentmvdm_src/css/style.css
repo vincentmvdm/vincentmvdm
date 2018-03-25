@@ -123,6 +123,10 @@ a {
     padding-top: calc(9 / 16 * 100%);
 }
 
+.two-by-one {
+    padding-top: calc(1 / 2 * 100%);
+}
+
 .marvel {
     padding-top: calc(9 / 14 * 100%);
 }
@@ -139,6 +143,7 @@ a {
 .desktop-hd,
 .sixteen-by-nine,
 .three-by-two,
+.two-by-one,
 .marvel,
 .invision {
     position: relative;
@@ -152,6 +157,7 @@ a {
 .desktop-hd > div,
 .sixteen-by-nine > div,
 .sixteen-by-nine > img,
+.two-by-one > div,
 .three-by-two > img,
 .marvel > div,
 .invision > div {
