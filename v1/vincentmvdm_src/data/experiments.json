@@ -3,7 +3,8 @@
         "media": "tandem.png",
         "mediaType": "image",
         "title": "Tandem",
-        "period": "",
+        "subtitle": "Creating a Slack-like chat app",
+        "period": "March 16, 2018",
         "tools": [
             "Sketch",
             "Framer",
@@ -13,46 +14,60 @@
             "Go",
             "MongoDB"
         ],
-        "description": ""
+        "content": [
+            "As part of my server-side web development class, I wrote the frontend and backend for a messaging app using React, Redux, Go, Node.js, MongoDB and Redis. I created three messaging clients that quarter, for a variety of projects, and wondered if they would be easier to make using React Native than React. I ended up contacting my professor, who agreed to do an independent study, and spent a quarter looking into React Native. An unpublished article with my thoughts can be found <a href='https://medium.com/@VincentVMeulen/developing-mobile-apps-with-react-native-when-you-only-know-react-e3507c47f3ef' target='_blank' class='blue-fill'>here</a>.",
+            "lol"
+        ]
     },
     "colormesurprised": {
         "media": "https://www.youtube.com/embed/Gdj-evLA6UY",
         "mediaType": "video",
         "title": "Color Me Surprised",
-        "period": "",
+        "subtitle": "Imagining a new color picker",
+        "period": "March 13, 2018",
         "tools": "",
-        "description": ""
+        "content": [
+            "<a href='https://www.dropbox.com/s/3e6gq6fl1duf86l/prototype.mp4?dl=0' target='_blank' class='blue-fill'>At first</a> Test 123 this is a test <a href='http://downloads.vincentmvdm.com/colormesurprised.pdf' target='_blank' class='blue-fill'>Hoi</a>"
+        ]
     },
     "homesoundsystem": {
         "media": "https://www.youtube.com/embed/Ns_8FLDtPwA",
         "mediaType": "video",
         "title": "Home Sound System",
-        "period": "",
+        "subtitle": "Making a $75 Sonos alternative",
+        "period": "January 1, 2018",
         "tools": "",
-        "description": ""
+        "content": [
+            "Test <a href='https://twitter.com/vincentmvdm/status/947870103810510849' target='_blank' class='blue-fill'>Test</a>"
+        ]
     },
     "similardetails": {
         "media": "similar_details.png",
         "mediaType": "image",
         "title": "Similar Details",
-        "period": "",
+        "subtitle": "Recommending podcast episodes people will love",
+        "period": "September 3, 2017",
         "tools": "",
-        "description": ""
+        "content": [
+            "Proof of content <a href='https://twitter.com/vincentmvdm/status/903513381411233792' target='_blank' class='blue-fill'>Test</a>"
+        ]
     },
     "allergenie": {
         "media": "https://www.youtube.com/embed/zRl9WaOlYU8",
         "mediaType": "video",
         "title": "Allergenie",
-        "period": "",
+        "subtitle": "Helping people with allergies decide what to eat",
+        "period": "July 21, 2017",
         "tools": "",
-        "description": ""
+        "content": []
     },
     "caesar": {
         "media": "https://www.youtube.com/embed/UYO_gDCRd8k",
         "mediaType": "video",
         "title": "Cynthesis",
-        "period": "",
+        "subtitle": "Generating Spotify playlists multiple people will like",
+        "period": "June 25th, 2017",
         "tools": "",
-        "description": ""
+        "content": []
     }
 }

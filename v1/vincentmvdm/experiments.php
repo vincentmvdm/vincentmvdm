@@ -15,7 +15,7 @@
                     <div class="max-width-measure mx-auto">
                         <h1 class="mt0">Experiments</h1>
                         <p>
-                            Curabitur blandit tempus porttitor. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla.
+                            Whenever I am not working on a clearly defined project, I try to do side projects and explore what is possible with design and code. These are some of the more interesting ones I have done over the years. To get an idea of what I am currently working on, visit my <a href="https://github.com/vincentmvdm" target="_blank" class="blue-fill">GitHub</a>.
                         </p>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
                     $experiment = $experiments[$i];
                     $isLast = ($i === count($experiments) - 1);
                     
-                    experiment($experiment["mediaType"], $experiment["media"], $experiment["title"], $experiment["tools"], $experiment["description"], $isLast);
+                    experiment($experiment["mediaType"], $experiment["media"], $experiment["title"], $experiment["subtitle"], $experiment["tools"], $experiment["description"], $experiment["content"], $experiment["period"], $isLast);
                 }
             ?>
         </section>

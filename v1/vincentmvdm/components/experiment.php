@@ -1,5 +1,5 @@
 <?php
-    function experiment($mediaType, $media, $title, $tools, $description, $isLast) {
+    function experiment($mediaType, $media, $title, $subtitle, $tools, $description, $content, $period, $isLast) {
         ?>
             <div class="py4">
                 <div class="max-width-4 mx-auto">
@@ -29,14 +29,22 @@
                             <div class="pb1">
                                 <h2 class="mb1"><?= $title ?></h2>
                                 <span class="lighten mt0">
-                                    One line project description
+                                    <?= $subtitle ?>
                                 </span>
                             </div>
-                            <p class="mt2">
-                                Curabitur blandit tempus porttitor. Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                            </p>
-                            <p class="mb0">
-                                Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Nulla vitae elit libero, a pharetra augue. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                            <?php for ($i = 0; $i < count($content); $i++) { ?>
+                                <?php if ($i === count($content) - 1) { ?>
+                                    <p class="mb0">
+                                        <?= $content[$i] ?>
+                                    </p>
+                                <?php } else { ?>
+                                    <p class="mt2">
+                                        <?= $content[$i] ?>
+                                    </p>
+                                <?php } ?>
+                            <?php } ?>
+                            <p class="lighten mt2 mb0 small">
+                                <?= $period ?>
                             </p>
                         </div>
                     </div>

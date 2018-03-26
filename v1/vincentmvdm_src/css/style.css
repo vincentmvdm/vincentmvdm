@@ -153,6 +153,10 @@ a {
     height: 100%;
 }
 
+.small {
+    font-size: 14px;
+}
+
 .mobile-portrait > div,
 .desktop-hd > div,
 .sixteen-by-nine > div,
