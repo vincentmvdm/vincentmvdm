@@ -15,8 +15,7 @@
             "MongoDB"
         ],
         "content": [
-            "As part of my server-side web development class, I wrote the frontend and backend for a messaging app using React, Redux, Go, Node.js, MongoDB and Redis. I created three messaging clients that quarter, for a variety of projects, and wondered if they would be easier to make using React Native than React. I ended up contacting my professor, who agreed to do an independent study, and spent a quarter looking into React Native. An unpublished article with my thoughts can be found <a href='https://medium.com/@VincentVMeulen/developing-mobile-apps-with-react-native-when-you-only-know-react-e3507c47f3ef' target='_blank' class='blue-fill'>here</a>.",
-            "lol"
+            "As part of a server-side web development class, I wrote the backend for a messaging app using Go, Node.js, MongoDB, Redis and RabbitMQ. I also wrote a React client, a messaging app, to go with this server and ended up contributing to the messaging functionality of a dating app that same quarter. While I was happy that I was getting better at advanced UI development, I realized that no one would come back to a messaging app unless it was a native app. Hence, I approached the same professor and asked him whether I could explore React Native for a quarter as part of an independent study. He agreed and I ended up building a Slack-like chat app over the course of 12 weeks. My (unpublished) thoughts can be found <a href='https://medium.com/@VincentVMeulen/developing-mobile-apps-with-react-native-when-you-only-know-react-e3507c47f3ef' target='_blank' class='blue-fill'>here</a>."
         ]
     },
     "colormesurprised": {
@@ -27,7 +26,9 @@
         "period": "March 13, 2018",
         "tools": "",
         "content": [
-            "<a href='https://www.dropbox.com/s/3e6gq6fl1duf86l/prototype.mp4?dl=0' target='_blank' class='blue-fill'>At first</a> Test 123 this is a test <a href='http://downloads.vincentmvdm.com/colormesurprised.pdf' target='_blank' class='blue-fill'>Hoi</a>"
+            "In the winter of 2018, I took a class that primarily involved reading SIGGRAPH papers and commenting on them for the first weeks of the quarter. One of the papers we read was Adobe's Playful Palette, in which Adobe researchers explore whether they can make artists more effective and have more fun by mimicing the way they pick colors when they use traditional media.",
+            "Playful Palette left an impression on me, since Adobe was attempting to change something most of us assume to be always the same, the color picker. When it was time for us to work on our projects, me and my partner decided that we wanted to see if we could make UI/UX designers more creative and effective by applying the ideas of Playful Palette to modern UI/UX design tools.",
+            "Since we only had three weeks, we started off by attempting to fake the color selection process using <a href='https://www.dropbox.com/s/3e6gq6fl1duf86l/prototype.mp4?dl=0' target='_blank' class='blue-fill'>a Framer prototype</a> . The Framer prototype would instruct users where to click, but they would not actually change colors themselves. We realized that would be unacceptable, as it was crucial for our participants to be able to review the color selection process. For this reason, we ended up up implementing Playful Palette ourselves using HTML5 Canvas/React/Redux. We conducted user tests and wrote <a href='http://downloads.vincentmvdm.com/colormesurprised.pdf' target='_blank' class='blue-fill'>a paper</a> about our findings.  "
         ]
     },
     "homesoundsystem": {
@@ -38,7 +39,7 @@
         "period": "January 1, 2018",
         "tools": "",
         "content": [
-            "Test <a href='https://twitter.com/vincentmvdm/status/947870103810510849' target='_blank' class='blue-fill'>Test</a>"
+            "During a brief visit home, I was challenged by my step father to create a home sound system like Sonos using Raspberry PIs. I ended up achieving the goal by using React Native (which was the first time I used it), Go, Node.js, and RabbitMQ. More technical details can be found <a href='https://twitter.com/vincentmvdm/status/947870103810510849' target='_blank' class='blue-fill'>here</a>."
         ]
     },
     "similardetails": {
@@ -49,7 +50,7 @@
         "period": "September 3, 2017",
         "tools": "",
         "content": [
-            "Proof of content <a href='https://twitter.com/vincentmvdm/status/903513381411233792' target='_blank' class='blue-fill'>Test</a>"
+            "As a huge fan of the Design Details podcast, I wanted to have a way to quickly find out which episode to listen to next. Since there is not a lot of episode metadata, I figured I could compare the words in different episodes' descriptions using tf-idf and cosine similarity. The <a href='https://twitter.com/vincentmvdm/status/903513381411233792' target='_blank' class='blue-fill'>initial MVP</a> was promising (it successfully noted the importance of Figma), so I added the ability to receive multiple suggestions for an input of more than one favorite episode."
         ]
     },
     "allergenie": {
@@ -59,7 +60,9 @@
         "subtitle": "Helping people with allergies decide what to eat",
         "period": "July 21, 2017",
         "tools": "",
-        "content": []
+        "content": [
+            "What's the most impactful way in voice will alter the way in which we interact with food? Me and my friends figured that Alexa can tell people with allergies whether they can eat certain foods or not, based on what we know about the ingredients. In a day, we built a rough (don't mind the test messages) but working proof of concept. Since there was a lot of development work, I was responsible for both the VX and the Node.js code/interactions with our DynamoDB database."
+        ]
     },
     "caesar": {
         "media": "https://www.youtube.com/embed/UYO_gDCRd8k",
@@ -68,6 +71,8 @@
         "subtitle": "Generating Spotify playlists multiple people will like",
         "period": "June 25th, 2017",
         "tools": "",
-        "content": []
+        "content": [
+            "In June 2017, three DubHacks organizers and I flew to Menlo Park to represent DubHacks at a16z's Battle of the Hacks. We ended up building Cynthesis: an app that looks at two Spotify users' favorite songs and uses k-means clustering to generate a playlist that both users will like, making it ideal for group events such as roadtrips. I was responsible for the client-side React code as well as a quick design."
+        ]
     }
 }

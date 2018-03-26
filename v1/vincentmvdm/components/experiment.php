@@ -36,7 +36,7 @@
                                     <?= $content[$i] ?>
                                 </p>
                             <?php } ?>
-                            <p class="lighten mt2 mb0 small">
+                            <p class="lighten mb0 mt1 small">
                                 Completed on <?= $period ?>
                             </p>
                         </div>
