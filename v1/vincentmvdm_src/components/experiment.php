@@ -26,26 +26,28 @@
                         <?php } ?>
 
                         <div class="max-width-measure mx-auto">
-                            <div class="pb1">
-                                <h2 class="mb1"><?= $title ?></h2>
-                                <span class="lighten mt0">
-                                    <?= $subtitle ?>
-                                </span>
-                            </div>
-                            <?php for ($i = 0; $i < count($content); $i++) { ?>
-                                <?php if ($i === count($content) - 1) { ?>
-                                    <p class="mb0">
-                                        <?= $content[$i] ?>
-                                    </p>
-                                <?php } else { ?>
-                                    <p class="mt2">
-                                        <?= $content[$i] ?>
-                                    </p>
+                            <div class="col-12 px2">
+                                <div class="pb1">
+                                    <h2 class="mb1"><?= $title ?></h2>
+                                    <span class="lighten mt0">
+                                        <?= $subtitle ?>
+                                    </span>
+                                </div>
+                                <?php for ($i = 0; $i < count($content); $i++) { ?>
+                                    <?php if ($i === count($content) - 1) { ?>
+                                        <p class="mb0">
+                                            <?= $content[$i] ?>
+                                        </p>
+                                    <?php } else { ?>
+                                        <p class="mt2">
+                                            <?= $content[$i] ?>
+                                        </p>
+                                    <?php } ?>
                                 <?php } ?>
-                            <?php } ?>
-                            <p class="lighten mt2 mb0 small">
-                                Completed on <?= $period ?>
-                            </p>
+                                <p class="lighten mt2 mb0 small">
+                                    Completed on <?= $period ?>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
