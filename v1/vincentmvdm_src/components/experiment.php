@@ -44,7 +44,7 @@
                                 <?php } ?>
                             <?php } ?>
                             <p class="lighten mt2 mb0 small">
-                                <?= $period ?>
+                                Completed on <?= $period ?>
                             </p>
                         </div>
                     </div>
