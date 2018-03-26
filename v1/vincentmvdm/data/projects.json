@@ -1,41 +1,50 @@
 {
     "amazon": {
-        "image": "images/amazon/hero-640w.jpg 1x, images/amazon/hero-640w@2x.jpg 2x",
+        "image":
+            "images/amazon/hero-640w.jpg 1x, images/amazon/hero-640w@2x.jpg 2x",
         "title": "Amazon Trade-In",
         "period": "Summer 2017",
-        "description": "Design projects done while part of the Amazon Trade-In team.",
+        "description":
+            "Design projects done while part of the Amazon Trade-In team.",
         "url": "amazon.php"
     },
     "carmax": {
-        "image": "images/carmax/hero-640w.jpg 1x, images/carmax/hero-640w@2x.jpg 2x",
+        "image":
+            "images/carmax/hero-640w.jpg 1x, images/carmax/hero-640w@2x.jpg 2x",
         "title": "CarMax",
         "period": "Fall 2016",
         "description": "A design for an app for car retailer CarMax.",
         "url": "carmax.php"
     },
     "getthere": {
-        "image": "images/getthere/hero-640w.jpg 1x, images/getthere/hero-640w@2x.jpg 2x",
+        "image":
+            "images/getthere/hero-640w.jpg 1x, images/getthere/hero-640w@2x.jpg 2x",
         "title": "Get There",
         "period": "August 2016",
         "description": "A design for the website of a Dutch software company.",
         "url": "getthere.php"
     },
     "scout": {
-        "image": "images/scout/hero-640w.jpg 1x, images/scout/hero-640w@2x.jpg 2x",
+        "image":
+            "images/scout/hero-640w.jpg 1x, images/scout/hero-640w@2x.jpg 2x",
         "title": "Scout",
         "period": "2016",
-        "description": "Contributions to an app that helps University of Washington students find resources on campus.",
+        "description":
+            "Contributions to an app that helps University of Washington students find resources on campus.",
         "url": "scout.php"
     },
     "perduko": {
-        "image": "images/perduko/hero-640w.jpg 1x, images/perduko/hero-640w@2x.jpg 2x",
+        "image":
+            "images/perduko/hero-640w.jpg 1x, images/perduko/hero-640w@2x.jpg 2x",
         "title": "Perduko",
         "period": "Fall 2015",
-        "description": "A design for a financial management app for University of Washington students.",
+        "description":
+            "A design for a financial management app for University of Washington students.",
         "url": "perduko.php"
     },
     "creativeaid": {
-        "image": "images/creativeaid/hero-640w.jpg 1x, images/creativeaid/hero-640w@2x.jpg 2x",
+        "image":
+            "images/creativeaid/hero-640w.jpg 1x, images/creativeaid/hero-640w@2x.jpg 2x",
         "title": "Creative Aid",
         "period": "Winter 2015",
         "description": "A website for the nonprofit organization Creative Aid.",

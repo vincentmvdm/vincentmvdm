@@ -1,0 +1,77 @@
+{
+    "tandem": {
+        "media": "tandem.png",
+        "mediaType": "image",
+        "title": "Tandem",
+        "subtitle": "Creating a Slack-like chat app",
+        "period": "March 16, 2018",
+        "tools": [
+            "Sketch",
+            "Framer",
+            "React Native",
+            "Redux",
+            "Node.js",
+            "Go",
+            "MongoDB"
+        ],
+        "content": [
+            "A quarter of writing both the backend (Go, Node.js, MongoDB, Redis, RabbitMQ) and frontend (React/Redux) for multiple messaging apps made me realize that mobile browsers make it incredibly hard to create web apps with enjoyable messaging experiences. Having just stumbled on React Native, I asked my professor if I could explore it for 12 weeks as part of an independent study. He agreed, and I ended up prototyping as well as building a Slack-like chat app. While far from perfect, <a href='https://medium.com/@VincentVMeulen/developing-mobile-apps-with-react-native-when-you-only-know-react-e3507c47f3ef' target='_blank' class='blue-fill'>React Native is incredibly exciting</a>."
+        ]
+    },
+    "colormesurprised": {
+        "media": "https://www.youtube.com/embed/Gdj-evLA6UY",
+        "mediaType": "video",
+        "title": "Color Me Surprised",
+        "subtitle": "Imagining a better color picker",
+        "period": "March 13, 2018",
+        "tools": "",
+        "content": [
+            "<a href='https://research.adobe.com/project/playful-palette-an-interactive-parametric-color-mixer-for-artists/' target='_blank' class='blue-fill'>Playful Palette</a> left an impression on me as Adobe shows that we can even improve the parts of the design tools we take for granted. Hence, a classmate and I decided to see if we could also make UI/UX designers more creative and effective by giving them access to the Playful Palette color picker. We started off by attempting to <a href='https://www.dropbox.com/s/3e6gq6fl1duf86l/prototype.mp4?dl=0' target='_blank' class='blue-fill'>fake a Playful Palette Sketch integration using Framer</a>, but ultimately recreated the color picker with HTML5 Canvas, React, and Redux. In the final weeks of the quarter, we asked design students to swap out Sketch’s default color picker for our color picker and wrote <a href='http://downloads.vincentmvdm.com/colormesurprised.pdf' target='_blank' class='blue-fill'>a paper</a> about our findings."
+        ]
+    },
+    "homesoundsystem": {
+        "media": "https://www.youtube.com/embed/Ns_8FLDtPwA",
+        "mediaType": "video",
+        "title": "Home Sound System",
+        "subtitle": "Making a $75 Sonos alternative",
+        "period": "January 1, 2018",
+        "tools": "",
+        "content": [
+            "During a brief visit home for winter break, I set out to create a Sonos-like home sound system using Raspberry Pis. To do this, I ended up learning the basics of React Native and wrote a server using Go, Node.js, and RabbitMQ. I almost did not finish the project on time, but got my app to <a href='https://twitter.com/vincentmvdm/status/947870103810510849' target='_blank' class='blue-fill'>play the same music in multiple rooms</a> on my last day in the Netherlands."
+        ]
+    },
+    "similardetails": {
+        "media": "similar_details.png",
+        "mediaType": "image",
+        "title": "Similar Details",
+        "subtitle": "Recommending podcast episodes people will love",
+        "period": "September 3, 2017",
+        "tools": "",
+        "content": [
+            "As a huge fan of the Design Details podcast, but with a backlog of more than hundred episodes, I wanted to be able to decide which episode to listen to next quickly. With limited metadata available to me, I figured I could best compare episode descriptions using tf-idf and cosine similarity. The <a href='https://twitter.com/vincentmvdm/status/903513381411233792' target='_blank' class='blue-fill'>initial MVP</a> correctly noted that two episodes with (former) Figma employees were likely similar. With a working proof of concept, I continued development and ultimately made it so that one can list their favorite episodes and receives recommendations that are both in and outside of their comfort zone."
+        ]
+    },
+    "allergenie": {
+        "media": "https://www.youtube.com/embed/zRl9WaOlYU8",
+        "mediaType": "video",
+        "title": "Allergenie",
+        "subtitle": "Helping people with allergies decide what to eat",
+        "period": "July 21, 2017",
+        "tools": "",
+        "content": [
+            "What’s the most impactful way in which voice experiences will alter the way we produce and consume food? While not the answer, my friends and I figured that Alexa could tell people with allergies whether they can eat a particular food or not based on what it knows about the ingredients. In a day we built a rough (as is evident from the messages) skill to demonstrate our idea. Especially DynamoDB proved to be challenging, so I not only concerned myself with the skill’s VX but wrote the Node.js code that interacts with the ingredients API and our database."
+        ]
+    },
+    "caesar": {
+        "media": "https://www.youtube.com/embed/UYO_gDCRd8k",
+        "mediaType": "video",
+        "title": "Cynthesis",
+        "subtitle":
+            "Generating Spotify playlists that groups of people will like",
+        "period": "June 25, 2017",
+        "tools": "",
+        "content": [
+            "During the summer of 2017, three other DubHacks organizers and I flew to a16z’s headquarters in Menlo Park to represent DubHacks at <a href='https://battleofthehacks4.devpost.com/' target='_blank' class='blue-fill'>Battle of the Hacks</a>. We believed that there should be a way to automatically play music that an entire group of people will like. To make that possible, we built an app that looks at two Spotify users' favorite songs and generates a new playlist using k-means clustering. While we did not win, I had a lot of fun drafting up a design, writing the React client, and helping integrate the Spotify API."
+        ]
+    }
+}
