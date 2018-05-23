@@ -15,7 +15,7 @@
                         </div>
                         <ul class="flex list-reset">
                             <?php if (basename($_SERVER['PHP_SELF'], '.php') !== 'index') { ?>
-                                <?php if (basename($_SERVER['PHP_SELF'], '.php') === 'about') { ?>
+                                <?php if (basename($_SERVER['PHP_SELF'], '.php') === 'about' || basename($_SERVER['PHP_SELF'], '.php') === 'experiments') { ?>
                                     <a href="index.php#selected-projects"><li class="px2">Projects</li></a>
                                 <?php } else { ?>
                                     <a href="index.php#selected-projects" class="current"><li class="px2">Projects</li></a>
